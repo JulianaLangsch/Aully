@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to top, indigo, white);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.logo__aully__infinito {
+    display: flex;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+    font-size: 3vw;
+}
+
+.logo__aully__infinito img {
+    width: 10vw;
+    margin-right: 10px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(240, 236, 236);
+    width: 40vw;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.2);
+    /* Fundo translúcido para melhor visualização */
+
+}
+
+.login-container input {
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.login_dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column
+}
+
+.login-container button {
+    align-self: center;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background: #975ab6;
+    font-size: 1.5vw;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+}
+
+.login-container button:hover {
+    background: #512260;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.forgot-password a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
